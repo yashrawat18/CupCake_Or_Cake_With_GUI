@@ -25,10 +25,14 @@ public class CupCakeOrCake{
     label2.setBounds(475,150,200,200);
 
     ImageIcon bg = new ImageIcon("bg1.jpg");
-    Image bgScaleImage = bg.getImage().getScaledInstance(800,600,Image.SCALE_DEFAULT);
-     
+    Image bgScaleImage = bg.getImage().getScaledInstance(800,600,Image.SCALE_DEFAULT);     
     window.setContentPane(new JLabel((new ImageIcon(bgScaleImage))));
 
+    JLabel head = new JLabel("Menu");
+    head.setBounds(320,30,300,50);
+    head.setFont(new Font("Verdana",Font.BOLD+Font.ITALIC,60));
+    head.setForeground(Color.WHITE);
+    window.add(head);
     window.add(label2);
     window.add(label);
     window.setSize(300,300);
