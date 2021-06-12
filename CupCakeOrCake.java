@@ -16,13 +16,13 @@ public class CupCakeOrCake{
     label.setIcon(new ImageIcon(scaleImage));
     
         //label.setHorizontalAlignment(JLabel.RIGHT);
-    label.setBounds(100,150,200,200);
+    label.setBounds(475,150,200,200);
     //label.setFont(new Font("Verdana",Font.ITALIC,22));
     ImageIcon cupCakes = new ImageIcon("cupcakes.jpg");
     Image scaleImage2 = cupCakes.getImage().getScaledInstance(200,200,Image.SCALE_DEFAULT);
     JLabel label2 = new JLabel();
     label2.setIcon(new ImageIcon(scaleImage2));
-    label2.setBounds(475,150,200,200);
+    label2.setBounds(100,150,200,200);
 
     ImageIcon bg = new ImageIcon("bg1.jpg");
     Image bgScaleImage = bg.getImage().getScaledInstance(800,600,Image.SCALE_DEFAULT);     
